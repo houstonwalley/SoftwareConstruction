@@ -63,7 +63,7 @@ int main() {
       while (at_least_two_alive(aaronAlive, bobAlive, charlieAlive)) {
          shoot_target_result = rand()%100;
          if (aaronAlive) {
-            Aaron_shoots2(bobAlive, charlieAlive);
+            Aaron_shoots1(bobAlive, charlieAlive);
          }
          shoot_target_result = rand()%100;
          if (bobAlive) {
