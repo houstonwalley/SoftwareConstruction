@@ -27,10 +27,10 @@ void test_Charlie_shoots(void);
 void test_Aaron_shoots2(void);
  
 //Variables
-int TOTAL_RUNS = 10000;
-int A_accuracy = 33;
-int B_accuracy = 50;
-int C_accuracy = 100;
+const int TOTAL_RUNS = 10000;
+const int A_accuracy = 33;
+const int B_accuracy = 50;
+const int C_accuracy = 100;
 int shoot_target_result;
 
 //Main method
